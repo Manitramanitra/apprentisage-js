@@ -9,5 +9,5 @@ const moi = {
         address:'Université d\'Antananrivo'
     }
 }
-const {name, prenom ,...other} =moi;
+const {name, prenom ,...other} =moi;//destructuration
 console.log(other.email);
