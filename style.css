@@ -1,7 +1,14 @@
-th {
-    padding-right: 30px;
+td {
     text-align: center;
-    background: #eee;
+    background: rgb(219, 211, 211);
+    margin-left: 10rem;
+
+}
+
+.ui {
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
 h3 {
@@ -15,4 +22,8 @@ button {
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+
+button {
+    margin: auto 0
 }
